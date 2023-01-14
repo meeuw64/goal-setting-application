@@ -1,4 +1,7 @@
 @media screen and (min-width: 1201px) { 
+
+    /* CSS Mostly for the log in page, but is also used in sign up page: */
+
     body{
         margin: 0;
         padding: 0;
@@ -105,5 +108,9 @@
     .sign-up-link a:hover{
         color: rgb(97, 143, 202);
     }
+
+    /* CSS For the sign up page: */
+
+
 
 }
