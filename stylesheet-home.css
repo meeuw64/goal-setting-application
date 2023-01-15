@@ -52,6 +52,22 @@
         display: flex;
         justify-content: space-around;
     }
+    label2{
+        /*
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        */
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        /*
+        pointer-events: none;
+        transition: .5s;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        */
+    }
     button {
         width: 30%;
         height: 50px;
@@ -75,5 +91,29 @@
         color: #cacaca;
         font-weight: 200;
     }
+/* everything below is temporary*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
 
 }
