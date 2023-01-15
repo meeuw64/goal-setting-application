@@ -69,3 +69,97 @@ input[type="email"] {
     font-weight: 200;
 }
 
+    .text-field input{
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+        color: white;
+    }
+    
+    form .text-field{
+        position: relative;
+        border-bottom: 1px  solid #adadad;
+        margin-bottom: 30px;
+    }
+
+    label1{
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        color: #505050;
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+    }
+    label2{
+        /*
+        top: 50%;
+        left: 50%;
+        right: 50%;
+        */
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        /*
+        pointer-events: none;
+        transition: .5s;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        */
+    }
+    button {
+        width: 30%;
+        height: 50px;
+        border: 1px solid;
+        background: rgba(118, 119, 189, 0.384);
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb33;
+        font-weight: 700;
+        cursor: pointer;
+        outline: none;
+        margin-top: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    input[type="email"] {
+        color: #cacaca;
+        font-weight: 200;
+    }
+/* everything below is temporary*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+
+
