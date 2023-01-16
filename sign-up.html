@@ -1,43 +1,117 @@
-<!-- user ID, password, name, address, country, ZIP code, email, sex, language, and about/bio -->
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap" rel="stylesheet"> 
-    <title>Sign up</title>
-  </head>
-  <body>
-    <div class="center">
-        <h1>Sign-up</h1>
-        <form method="post">
-            <label1>Email</label1>
-            <div class="text-field">
-                <input type="email">
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" href="stylesheet-signup.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap" rel="stylesheet"> 
+      <title>Sign Up</title>
+    </head>
+  
+    <body>
+      <section class="container">
+        <header>Sign Up</header>
+        <form action="#" class="form">
+          <div class="box">
+          <div class="sign-up">
+            <label>User ID</label>
+            <input type="number" placeholder="Enter user ID"/>
+          </div>
+  
+          <div class="sign-up">
+              <label>Full Name</label>
+              <input type="text" placeholder="Enter full name"/>
             </div>
-            <label1>Password</label1>
-            <div class="text-field">
-                <input type="password">
+          </div>
+  
+          <div class="sign-up">
+            <label>Email Address</label>
+            <input type="text" placeholder="Enter email address"/>
+          </div>
+  
+          <div class="box">
+              <div class="sign-up">
+                <label>Password</label>
+                <input type="text" placeholder="Enter password"/>
+              </div>
+    
+              <div class="sign-up">
+                <label>Confirm Password</label>
+                <input type="text" placeholder="Confirm password"/>
+              </div>
             </div>
-            <label2>User-ID</label2>
-            <div class="ID-field">
-                <input type="number">
+  
+          <div class="gender-input">
+            <h3>Gender</h3>
+            <div class="gender-menu">
+              <div class="gender-options">
+                <input type="radio" id="check-male" name="gender" checked />
+                <label for="check-male">Male</label>
+              </div>
+              <div class="gender-options">
+                <input type="radio" id="check-female" name="gender" />
+                <label for="check-female">Female</label>
+              </div>
+              <div class="gender-options">
+                <input type="radio" id="check-other" name="gender" />
+                <label for="check-other">Other</label>
+              </div>
             </div>
-            <label3>Name</label3>
-            <div class="name-field">
-                <input type="text">
+          </div>
+  
+          <div class="box">
+              <div class="sign-up">
+                <label>ZIP code</label>
+                <input type="text" placeholder="Enter zip code"/>
+              </div>
+      
+          <div class="sign-up">
+              <label>Country</label>
+              <input type="text" placeholder="Enter country"/>
             </div>
-            <label4>Street address</label4>
-            <div class="address-field">
-                <input type="text">
+              </div>
+  
+          <div class="input-box-address">
+            <label>Language</label>
+            <div class="box">
+          
+              <div class="select-box">
+              
+                <select>
+                  <option hidden>Choose Here</option>
+                  <option>English</option>
+                  <option>Nederlands</option>
+                  <option>Frysk</option>
+                  <option>Français</option>
+                  <option>Español</option>
+                  <option>Lietuviškai</option>
+                  <option>русский</option>
+                  <option>官话</option>
+                  <option>日本語</option>
+                  <option>اَلْعَرَبِيَّةُ‎</option>
+                  <option>ภาษาไทย</option>
+                  <option>ქართული</option>
+                  <option>한국어</option>
+                  <option>Türkçe</option>
+                </select>
+              </div>
             </div>
-
-            <button><a href="nextpage.html">Sign up!</a></button>
-            <div class="sign-up-link"></div>
-        </form>
-    </div>
-  </body>
-</html>
+          </div>
+          <br>
+  
+          <!-- ABOUT/BIO BOX -->
+          <div class="about-box">
+              <label>About / Bio</label>
+              <input type="text"/>
+            </div>
+  
+          <!-- SIGN UP BUTTON -->
+        <button><a href="index.html">Sign Up</a></button>
+          </form>
+            </section>
+          <!-- END -->
+    </body>
+  </html>
