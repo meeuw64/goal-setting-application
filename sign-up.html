@@ -8,39 +8,45 @@
       <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap" rel="stylesheet"> 
+      <script defer src="./validation.js"></script>
       <title>Sign Up</title>
     </head>
   
     <body>
       <section class="container">
         <header>Sign Up</header>
-        <form action="#" class="form">
+        <form id = "form" action="#" class="form">
           <div class="box">
           <div class="sign-up">
             <label>User ID</label>
-            <input type="number" placeholder="Enter user ID"/>
+            <input id="userid" name = "userid" type="text" placeholder="Enter user ID"/>
+            <div class="error"></div>
           </div>
   
           <div class="sign-up">
               <label>Full Name</label>
-              <input type="text" placeholder="Enter full name"/>
+              <input id="fullname" name="fullname" type="text" placeholder="Enter full name"/>
+              <div class="error"></div>
             </div>
           </div>
   
           <div class="sign-up">
             <label>Email Address</label>
-            <input type="text" placeholder="Enter email address"/>
+            <input id = "email" type="text" placeholder="Enter email address"/>
+            <div class="error"></div>
           </div>
   
           <div class="box">
               <div class="sign-up">
                 <label>Password</label>
-                <input type="text" placeholder="Enter password"/>
+                <input id = "password" type="text" placeholder="Enter password"/>
+                <div class="error"></div>
               </div>
     
               <div class="sign-up">
                 <label>Confirm Password</label>
-                <input type="text" placeholder="Confirm password"/>
+                <input id="confirmpassword" type="text" placeholder="Confirm password"/>
+                <div class="error"></div>
               </div>
             </div>
   
@@ -65,12 +71,14 @@
           <div class="box">
               <div class="sign-up">
                 <label>ZIP code</label>
-                <input type="text" placeholder="Enter zip code"/>
+                <input id="zip" type="text" placeholder="Enter zip code"/>
+                <div class="error"></div>
               </div>
       
           <div class="sign-up">
               <label>Country</label>
-              <input type="text" placeholder="Enter country"/>
+              <input id="country" type="text" placeholder="Enter country"/>
+              <div class="error"></div>
             </div>
               </div>
   
@@ -80,7 +88,7 @@
           
               <div class="select-box">
               
-                <select>
+                <select id="lang" name="lang">
                   <option hidden>Choose Here</option>
                   <option>English</option>
                   <option>Nederlands</option>
@@ -105,11 +113,12 @@
           <!-- ABOUT/BIO BOX -->
           <div class="about-box">
               <label>About / Bio</label>
-              <input type="text"/>
+              <input id="about" type="text"/>
+              <div class="error"></div>
             </div>
   
           <!-- SIGN UP BUTTON -->
-        <button><a href="index.html">Sign Up</a></button>
+        <button type="submit"><a href="index.html">Sign Up</a></button>
           </form>
             </section>
           <!-- END -->
